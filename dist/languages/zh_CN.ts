@@ -2971,7 +2971,7 @@ Wait stalls the GPU until the pipeline is ready (no missing effects, but long st
     <message>
         <location filename="../../src/yuzu/configuration/configure_debug.ui" line="341"/>
         <source>When checked, it executes shaders without loop logic changes</source>
-        <translation>启用后，yuzu 在执行着色器时，不会修改循环结构的条件判断</translation>
+        <translation>启用后，Lichii 在执行着色器时，不会修改循环结构的条件判断</translation>
     </message>
     <message>
         <location filename="../../src/yuzu/configuration/configure_debug.ui" line="344"/>
@@ -2991,7 +2991,7 @@ Wait stalls the GPU until the pipeline is ready (no missing effects, but long st
     <message>
         <location filename="../../src/yuzu/configuration/configure_debug.ui" line="364"/>
         <source>When checked, it enables Nsight Aftermath crash dumps</source>
-        <translation>启用后，yuzu 将会保存 Nsight Aftermath 格式的崩溃转储文件</translation>
+        <translation>启用后，Lichii 将会保存 Nsight Aftermath 格式的崩溃转储</translation>
     </message>
     <message>
         <location filename="../../src/yuzu/configuration/configure_debug.ui" line="367"/>
@@ -3193,6 +3193,16 @@ Wait stalls the GPU until the pipeline is ready (no missing effects, but long st
         <source>**This will be reset automatically when Eden closes.</source>
         <translation>**这会在 Eden 关闭时自动重置。</translation>
     </message>
+    <message>
+            <location filename="../../src/lichii/configuration/configure_debug.ui" line="449"/>
+            <source>When checked, Lichii will log statistics about the compiled pipeline cache</source>
+            <translation>启用后，Lichii 会记录已编译管线缓存的统计信息</translation>
+        </message>
+    <message>
+            <location filename="../../src/lichii/configuration/configure_debug.ui" line="488"/>
+            <source>Enables Lichii to check for a working Vulkan environment when the program starts up. Disable this if this is causing issues with external programs seeing Lichii.</source>
+            <translation>启用后，Lichii 会在启动时检查 Vulkan 环境是否可用。如果这会导致其他程序无法识别 Lichii，请关闭此项。</translation>
+        </message>
 </context>
 <context>
     <name>ConfigureDebugController</name>
@@ -8678,6 +8688,16 @@ Would you like to bypass this and exit anyway?</source>
         <source>&amp;Lichii Dependencies</source>
         <translation>Lichii 依赖(&amp;L)</translation>
     </message>
+    <message>
+        <location filename="../../src/lichii/main.ui" line="298"/>
+        <source>&amp;What&apos;s New in Lichii</source>
+        <translation>Lichii 新功能(&amp;W)</translation>
+    </message>
+    <message>
+            <location filename="../../src/lichii/main.ui" line="14"/>
+            <source>Lichii</source>
+            <translation>Lichii</translation>
+        </message>
 </context>
 <context>
     <name>MigrationWorker</name>
@@ -12005,6 +12025,79 @@ Would you like to manually select a portable folder to use?</source>
         <location filename="../../src/yuzu/recommended_settings_dialog.cpp" line="125"/>
         <source>To use the recommended settings again, use Help &gt; Apply Recommended Settings.</source>
         <translation>如需再次使用推荐设置，请使用「帮助 &gt; 应用推荐设置」。</translation>
+    </message>
+</context>
+<context>
+    <name>WhatsNewDialog</name>
+    <message>
+        <location filename="../../src/lichii/whats_new_dialog.cpp" line="53"/>
+        <source>What&apos;s New in Lichii</source>
+        <translation>Lichii 新功能</translation>
+    </message>
+    <message>
+        <location filename="../../src/lichii/whats_new_dialog.cpp" line="72"/>
+        <source>Lichii has a new look</source>
+        <translation>Lichii 焕然一新</translation>
+    </message>
+    <message>
+        <location filename="../../src/lichii/whats_new_dialog.cpp" line="79"/>
+        <source>Here is what changed. Menus and shortcuts are where they were.</source>
+        <translation>下面是这次的改动。菜单和快捷键的位置都没有变。</translation>
+    </message>
+    <message>
+        <location filename="../../src/lichii/whats_new_dialog.cpp" line="87"/>
+        <source>Lichii Dark theme</source>
+        <translation>Lichii 深色主题</translation>
+    </message>
+    <message>
+        <location filename="../../src/lichii/whats_new_dialog.cpp" line="88"/>
+        <source>A darker theme with the Lichii pink accent. The old themes are still in Configure &gt; General &gt; UI.</source>
+        <translation>更暗的主题，配上 Lichii 的粉色点缀。旧主题仍在「设置 &gt; 通用 &gt; 界面」里。</translation>
+    </message>
+    <message>
+        <location filename="../../src/lichii/whats_new_dialog.cpp" line="90"/>
+        <source>Settings that fit your screen</source>
+        <translation>设置窗口会适配你的屏幕</translation>
+    </message>
+    <message>
+        <location filename="../../src/lichii/whats_new_dialog.cpp" line="91"/>
+        <source>Configure and game Properties open at a size that fits your screen, can be resized, and every tab scrolls, so nothing is cut off at 150% or 200% scaling.</source>
+        <translation>「设置」和游戏「属性」窗口打开时会按屏幕大小显示，可以调整尺寸，每个标签页都能滚动，所以在 150% 或 200% 缩放下也不会被截断。</translation>
+    </message>
+    <message>
+        <location filename="../../src/lichii/whats_new_dialog.cpp" line="94"/>
+        <source>Per-game changes are marked</source>
+        <translation>单独为某个游戏改过的设置会标出来</translation>
+    </message>
+    <message>
+        <location filename="../../src/lichii/whats_new_dialog.cpp" line="95"/>
+        <source>In a game&apos;s Properties, a setting you changed for that game has a pink outline and a reset button. Settings that follow the global value say &quot;Use global&quot;.</source>
+        <translation>在游戏的「属性」里，你为它单独改过的设置会有粉色边框和重置按钮；跟随全局取值的设置则会显示「使用全局」。</translation>
+    </message>
+    <message>
+        <location filename="../../src/lichii/whats_new_dialog.cpp" line="98"/>
+        <source>Same places as before</source>
+        <translation>位置和以前一样</translation>
+    </message>
+    <message>
+        <location filename="../../src/lichii/whats_new_dialog.cpp" line="99"/>
+        <source>Configure is in Emulation &gt; Configure (Ctrl+,). Right-click a game and choose Properties for its own settings. Help &gt; What&apos;s New in Lichii shows this again.</source>
+        <translation>「设置」在「模拟 &gt; 设置」（Ctrl+,）。右键点击游戏并选「属性」，可以改它专属的设置。想再看这个页面，打开「帮助 &gt; Lichii 新功能」。</translation>
+    </message>
+    <message>
+        <location filename="../../src/lichii/whats_new_dialog.cpp" line="115"/>
+        <source>Don&apos;t show again</source>
+        <translation>不再显示</translation>
+    </message>
+    <message>
+        <location filename="../../src/lichii/whats_new_dialog.cpp" line="119"/>
+        <source>Open Configure</source>
+        <translation>打开设置</translation>
+    </message>
+    <message>
+        <location filename="../../src/lichii/whats_new_dialog.cpp" line="126"/>
+        <source>Got it</source>
+        <translation>知道了</translation>
     </message>
 </context>
 </TS>
