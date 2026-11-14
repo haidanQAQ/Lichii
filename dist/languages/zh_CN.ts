@@ -531,7 +531,7 @@ Please note this may result in deadlocks and other race conditions.</source>
     <message>
         <location filename="../../src/qt_common/config/shared_translation.cpp" line="139"/>
         <source>API:</source>
-        <translation>API:</translation>
+        <translation>API：</translation>
     </message>
     <message>
         <location filename="../../src/qt_common/config/shared_translation.cpp" line="140"/>
@@ -634,7 +634,7 @@ Also controls the aspect ratio of captured screenshots.</source>
     <message>
         <location filename="../../src/qt_common/config/shared_translation.cpp" line="166"/>
         <source>Use persistent pipeline cache</source>
-        <translation>使用持久管道缓存</translation>
+        <translation>使用持久管线缓存</translation>
     </message>
     <message>
         <location filename="../../src/qt_common/config/shared_translation.cpp" line="167"/>
@@ -697,8 +697,8 @@ CPU 异步模拟：使用 CPU 在 ASTC 纹理到达时对其进行解码。
         <source>Most GPUs lack support for ASTC textures and must decompress to anintermediate format: RGBA8.
 BC1/BC3: The intermediate format will be recompressed to BC1 or BC3 format,
  saving VRAM but degrading image quality.</source>
-        <translation>大多数 GPU 不支持 ASTC 纹理,必须解压到中间格式: RGBA8。
-BC1/BC3: 中间格式将被重新压缩为 BC1 或 BC3 格式,从而节省显存,
+        <translation>大多数 GPU 不支持 ASTC 纹理，必须解压到中间格式：RGBA8。
+BC1/BC3：中间格式将被重新压缩为 BC1 或 BC3 格式,从而节省显存,
 但会降低图像质量。</translation>
     </message>
     <message>
@@ -1425,7 +1425,7 @@ Enabling it bypasses such prompts and directly exits the emulation.</source>
     <message>
         <location filename="../../src/qt_common/config/shared_translation.cpp" line="475"/>
         <source>1X (720p/1080p)</source>
-        <translation>1X (720p/1080p)</translation>
+        <translation>1X（720p/1080p）</translation>
     </message>
     <message>
         <location filename="../../src/qt_common/config/shared_translation.cpp" line="476"/>
@@ -1440,37 +1440,37 @@ Enabling it bypasses such prompts and directly exits the emulation.</source>
     <message>
         <location filename="../../src/qt_common/config/shared_translation.cpp" line="478"/>
         <source>2X (1440p/2160p)</source>
-        <translation>2X (1440p/2160p)</translation>
+        <translation>2X（1440p/2160p）</translation>
     </message>
     <message>
         <location filename="../../src/qt_common/config/shared_translation.cpp" line="479"/>
         <source>3X (2160p/3240p)</source>
-        <translation>3X (2160p/3240p)</translation>
+        <translation>3X（2160p/3240p）</translation>
     </message>
     <message>
         <location filename="../../src/qt_common/config/shared_translation.cpp" line="480"/>
         <source>4X (2880p/4320p)</source>
-        <translation>4X (2880p/4320p)</translation>
+        <translation>4X（2880p/4320p）</translation>
     </message>
     <message>
         <location filename="../../src/qt_common/config/shared_translation.cpp" line="481"/>
         <source>5X (3600p/5400p)</source>
-        <translation>5X (3600p/5400p)</translation>
+        <translation>5X（3600p/5400p）</translation>
     </message>
     <message>
         <location filename="../../src/qt_common/config/shared_translation.cpp" line="482"/>
         <source>6X (4320p/6480p)</source>
-        <translation>6X (4320p/6480p)</translation>
+        <translation>6X（4320p/6480p）</translation>
     </message>
     <message>
         <location filename="../../src/qt_common/config/shared_translation.cpp" line="483"/>
         <source>7X (5040p/7560p)</source>
-        <translation>7X (5040p/7560p)</translation>
+        <translation>7X（5040p/7560p）</translation>
     </message>
     <message>
         <location filename="../../src/qt_common/config/shared_translation.cpp" line="484"/>
         <source>8X (5760p/8640p)</source>
-        <translation>8X (5760p/8640p)</translation>
+        <translation>8X（5760p/8640p）</translation>
     </message>
     <message>
         <location filename="../../src/qt_common/config/shared_translation.cpp" line="488"/>
@@ -1525,7 +1525,7 @@ Enabling it bypasses such prompts and directly exits the emulation.</source>
     <message>
         <location filename="../../src/qt_common/config/shared_translation.cpp" line="498"/>
         <source>B-Spline</source>
-        <translation>B-Spline</translation>
+        <translation>B 样条</translation>
     </message>
     <message>
         <location filename="../../src/qt_common/config/shared_translation.cpp" line="499"/>
@@ -1535,7 +1535,7 @@ Enabling it bypasses such prompts and directly exits the emulation.</source>
     <message>
         <location filename="../../src/qt_common/config/shared_translation.cpp" line="500"/>
         <source>Spline-1</source>
-        <translation>Spline-1</translation>
+        <translation>样条-1</translation>
     </message>
     <message>
         <location filename="../../src/qt_common/config/shared_translation.cpp" line="501"/>
@@ -2003,7 +2003,7 @@ Enabling it bypasses such prompts and directly exits the emulation.</source>
     <message>
         <location filename="../../src/qt_common/config/shared_translation.cpp" line="626"/>
         <source>8GB DRAM</source>
-        <translation>8GB DRAM</translation>
+        <translation>8GB 内存</translation>
     </message>
     <message>
         <location filename="../../src/qt_common/config/shared_translation.cpp" line="627"/>
@@ -2925,7 +2925,7 @@ Enabling it bypasses such prompts and directly exits the emulation.</source>
     <message>
         <location filename="../../src/lichii/configuration/configure_debug.ui" line="364"/>
         <source>When checked, it enables Nsight Aftermath crash dumps</source>
-        <translation>启用后，Lichii 将会保存 Nsight Aftermath 格式的崩溃转储文件</translation>
+        <translation>启用后，Lichii 将会保存 Nsight Aftermath 格式的崩溃转储</translation>
     </message>
     <message>
         <location filename="../../src/lichii/configuration/configure_debug.ui" line="367"/>
@@ -2980,7 +2980,7 @@ Enabling it bypasses such prompts and directly exits the emulation.</source>
     <message>
         <location filename="../../src/lichii/configuration/configure_debug.ui" line="449"/>
         <source>When checked, Lichii will log statistics about the compiled pipeline cache</source>
-        <translation>选中时，Lichii 将记录有关已编译着色器缓存的统计信息。</translation>
+        <translation>启用后，Lichii 会记录已编译管线缓存的统计信息</translation>
     </message>
     <message>
         <location filename="../../src/lichii/configuration/configure_debug.ui" line="452"/>
@@ -3015,7 +3015,7 @@ Enabling it bypasses such prompts and directly exits the emulation.</source>
     <message>
         <location filename="../../src/lichii/configuration/configure_debug.ui" line="488"/>
         <source>Enables Lichii to check for a working Vulkan environment when the program starts up. Disable this if this is causing issues with external programs seeing Lichii.</source>
-        <translation>允许 Lichii 在启动时检查 Vulkan 环境是否正常工作。如果是其他程序导致 Lichii 出现相关问题，请禁用此选项。</translation>
+        <translation>启用后，Lichii 会在启动时检查 Vulkan 环境是否可用。如果这会导致其他程序无法识别 Lichii，请关闭此项。</translation>
     </message>
     <message>
         <location filename="../../src/lichii/configuration/configure_debug.ui" line="491"/>
