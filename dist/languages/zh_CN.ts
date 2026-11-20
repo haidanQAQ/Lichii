@@ -67,7 +67,7 @@ This software should not be used to play games you have not legally obtained.</s
     <message>
         <location line="+16"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=" font-size:7pt;"&gt;&amp;quot;Nintendo Switch&amp;quot; is a trademark of Nintendo. Lichii is not affiliated with Nintendo in any way.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=" font-size:7pt;"&gt;「Nintendo Switch」 是任天堂的商标。Lichii 与任天堂没有任何关联。&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=" font-size:7pt;"&gt;「Nintendo Switch」是任天堂的商标。Lichii 与任天堂没有任何关联。&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
 </context>
 <context>
